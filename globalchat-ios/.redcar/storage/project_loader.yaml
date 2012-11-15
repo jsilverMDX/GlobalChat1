@@ -1,0 +1,5 @@
+--- 
+open_files: 
+  - Gemfile
+  - app/GlobalChatController.rb
+  - app/ChatViewController.rb

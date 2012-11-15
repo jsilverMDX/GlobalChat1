@@ -1,0 +1,23 @@
+$:.unshift("/Library/RubyMotion/lib")
+require 'motion/project'
+require 'rubygems'
+require 'bundler/setup'
+Bundler.require
+
+Motion::Project::App.setup do |app|
+  # A nicer way to load dependencies, found at the below url
+  # http://dylanmarkow.com/blog/2012/05/06/load-order-with-rubymotion/
+  
+  app.files += Dir.glob(File.join(app.project_dir, 'app/**/*.rb'))
+  
+  app.name = 'GlobalChat'
+  app.device_family = :iphone
+  app.identifier = 'com.mdx.globalchat'
+  app.info_plist['UIMainStoryboardFile'] = 'MainStoryboard_iPhone'
+  #app.info_plist['UIMainStoryboardFile~ipad'] = 'MainStoryboard_iPad'
+  app.interface_orientations = :landscape_right
+  #app.frameworks << 'AVFoundation'
+  #app.sdk_version = "4.3"
+  app.deployment_target = "5.1"
+  app.provisioning_profile = "GlobalChat_Profile.mobileprovision"
+end

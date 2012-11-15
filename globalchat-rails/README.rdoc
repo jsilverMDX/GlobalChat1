@@ -1,0 +1,11 @@
+GlobalChat Rails 1.0
+
+This is free software, meant to be used with GlobalChat One for Mac/iOS
+
+You may enjoy GlobalChat (2) & Server, the regular version, available on the Mac App Store
+
+I am releasing this to showcase alternative Chat architectures
+
+Thank you for enjoying fine Jonsoft!
+
+Jonathan Silverman

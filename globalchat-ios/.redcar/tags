@@ -1,0 +1,43 @@
+1347262055
+AppDelegate	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/app_delegate.rb	class AppDelegate
+ChatViewController	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/ChatViewController.rb	class ChatViewController 
+GlobalChatController	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	class GlobalChatController
+HOST	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  HOST =
+LoginViewController	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/LoginViewController.rb	class LoginViewController 
+QUEUE	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  QUEUE =
+application	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/app_delegate.rb	  def application(application, didFinishLaunchingWithOptions:launchOptions)
+application	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  attr_accessor :chat_token, :chat_buffer, :nicks, :handle, :handle_text_field, :connect_button, :sign_in_window, :chat_window, :chat_window_text, :chat_message, :nicks_table, :application, :scroll_view, :last_scroll_view_height
+chat_buffer	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/ChatViewController.rb	  attr_accessor :chat_buffer
+chat_buffer	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  attr_accessor :chat_token, :chat_buffer, :nicks, :handle, :handle_text_field, :connect_button, :sign_in_window, :chat_window, :chat_window_text, :chat_message, :nicks_table, :application, :scroll_view, :last_scroll_view_height
+chat_message	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/ChatViewController.rb	  attr_accessor :chat_message
+chat_message	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  attr_accessor :chat_token, :chat_buffer, :nicks, :handle, :handle_text_field, :connect_button, :sign_in_window, :chat_window, :chat_window_text, :chat_message, :nicks_table, :application, :scroll_view, :last_scroll_view_height
+chat_token	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  attr_accessor :chat_token, :chat_buffer, :nicks, :handle, :handle_text_field, :connect_button, :sign_in_window, :chat_window, :chat_window_text, :chat_message, :nicks_table, :application, :scroll_view, :last_scroll_view_height
+chat_window	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  attr_accessor :chat_token, :chat_buffer, :nicks, :handle, :handle_text_field, :connect_button, :sign_in_window, :chat_window, :chat_window_text, :chat_message, :nicks_table, :application, :scroll_view, :last_scroll_view_height
+chat_window_text	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  attr_accessor :chat_token, :chat_buffer, :nicks, :handle, :handle_text_field, :connect_button, :sign_in_window, :chat_window, :chat_window_text, :chat_message, :nicks_table, :application, :scroll_view, :last_scroll_view_height
+connect_button	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  attr_accessor :chat_token, :chat_buffer, :nicks, :handle, :handle_text_field, :connect_button, :sign_in_window, :chat_window, :chat_window_text, :chat_message, :nicks_table, :application, :scroll_view, :last_scroll_view_height
+get_handles	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  def get_handles
+get_log	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  def get_log
+get_messages	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  def get_messages
+handle	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  attr_accessor :chat_token, :chat_buffer, :nicks, :handle, :handle_text_field, :connect_button, :sign_in_window, :chat_window, :chat_window_text, :chat_message, :nicks_table, :application, :scroll_view, :last_scroll_view_height
+handle_text	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/LoginViewController.rb		attr_accessor :handle_text
+handle_text_field	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  attr_accessor :chat_token, :chat_buffer, :nicks, :handle, :handle_text_field, :connect_button, :sign_in_window, :chat_window, :chat_window_text, :chat_message, :nicks_table, :application, :scroll_view, :last_scroll_view_height
+handles_list	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/ChatViewController.rb	  attr_accessor :handles_list
+initialize	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  def initialize(name)
+last_scroll_view_height	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  attr_accessor :chat_token, :chat_buffer, :nicks, :handle, :handle_text_field, :connect_button, :sign_in_window, :chat_window, :chat_window_text, :chat_message, :nicks_table, :application, :scroll_view, :last_scroll_view_height
+nicks	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  attr_accessor :chat_token, :chat_buffer, :nicks, :handle, :handle_text_field, :connect_button, :sign_in_window, :chat_window, :chat_window_text, :chat_message, :nicks_table, :application, :scroll_view, :last_scroll_view_height
+nicks_table	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  attr_accessor :chat_token, :chat_buffer, :nicks, :handle, :handle_text_field, :connect_button, :sign_in_window, :chat_window, :chat_window_text, :chat_message, :nicks_table, :application, :scroll_view, :last_scroll_view_height
+post_message	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  def post_message(message)
+quit	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  def quit(sender)
+refresh_chat_views	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/ChatViewController.rb	  def refresh_chat_views
+scroll_the_scroll_view_down	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/ChatViewController.rb	  def scroll_the_scroll_view_down
+scroll_view	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  attr_accessor :chat_token, :chat_buffer, :nicks, :handle, :handle_text_field, :connect_button, :sign_in_window, :chat_window, :chat_window_text, :chat_message, :nicks_table, :application, :scroll_view, :last_scroll_view_height
+sendMessage	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/ChatViewController.rb	  def sendMessage(sender)
+setWindow	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/app_delegate.rb	  def setWindow(new_window)
+signIn	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/LoginViewController.rb		def signIn(sender)
+sign_in_window	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  attr_accessor :chat_token, :chat_buffer, :nicks, :handle, :handle_text_field, :connect_button, :sign_in_window, :chat_window, :chat_window_text, :chat_message, :nicks_table, :application, :scroll_view, :last_scroll_view_height
+sign_on	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  def sign_on(name)
+sign_out	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  def sign_out
+tableView	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  def tableView(tableView, cellForRowAtIndexPath:indexPath)
+tableView	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/GlobalChatController.rb	  def tableView(tableView, numberOfRowsInSection: section)
+viewDidLoad	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/ChatViewController.rb	  def viewDidLoad
+window	/Users/jsilverman2/Jonsoft/gc/globalchat-ios/app/app_delegate.rb	  def window

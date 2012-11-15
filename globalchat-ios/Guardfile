@@ -1,0 +1,18 @@
+require 'guard'
+require 'guard/guard'
+require 'guard/test'
+require 'fileutils'
+require 'pry'
+
+
+guard :test do
+  watching = [
+    /^spec\/(.+)\.rb$/, 
+    /^app\/(.+)\.rb$/, 
+    /^resources\/(.+)\.storyboard$/
+  ].each do |regex|
+    watch(regex) do
+      system("rake mdx:spec")
+    end
+  end
+end
